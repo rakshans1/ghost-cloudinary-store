@@ -16,7 +16,7 @@ var requireFromGhost = function(module, blocking) {
 var Promise = require('bluebird');
 var cloudinary = require('cloudinary');
 var util = require('util');
-var baseStore = requireFromGhost("core/server/storage/base", false)
+var baseStore = requireFromGhost("core/server/storage/base", false);
 
 
 function CloudinaryStore(config) {
