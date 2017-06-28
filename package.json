@@ -1,0 +1,31 @@
+{
+  "name": "ghost-cloudinary-store",
+  "version": "1.0.0",
+  "description": "A Cloudinary image storage module for Ghost blogs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakshans1/ghost-cloudinary-store.git"
+  },
+  "keywords": [
+    "cloudinary",
+    "ghost",
+    "blog",
+    "image",
+    "storage",
+    "module"
+  ],
+  "author": "Rakshan Shetty <shetty.raxx555@gmail.com> (http://rakshanshetty.in)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rakshans1/ghost-cloudinary-store/issues"
+  },
+  "homepage": "https://github.com/rakshans1/ghost-cloudinary-store#readme",
+  "dependencies": {
+    "bluebird": "2.10.x",
+    "cloudinary": "1.2.x"
+  }
+}
